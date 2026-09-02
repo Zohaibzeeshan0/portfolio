@@ -72,7 +72,7 @@ export const Experience: React.FC = () => {
         </ScrollReveal>
 
         {/* Counter Statistics Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {EXPERIENCE_STATS.map((stat, idx) => (
             <ScrollReveal key={idx} direction="up" delay={120 + idx * 90}>
               <div className="p-6 rounded-2xl glass-card text-center relative overflow-hidden group hover:border-blue-500/60 shadow-xl">

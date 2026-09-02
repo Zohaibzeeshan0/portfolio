@@ -84,13 +84,13 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode }) => {
         {/* Brand Logo - Pure White: Code with Zohaib Zeeshan (Dot removed) */}
         <a
           href="#home"
-          className="flex items-center gap-3 group tracking-tight text-white"
+          className="flex items-center gap-2 sm:gap-3 group tracking-tight text-white"
         >
-          <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-violet-600 flex items-center justify-center text-white shadow-lg shadow-blue-500/40 group-hover:scale-105 transition-transform duration-300">
-            <Code2 className="w-6 h-6" />
+          <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-violet-600 flex items-center justify-center text-white shadow-lg shadow-blue-500/40 group-hover:scale-105 transition-transform duration-300 shrink-0">
+            <Code2 className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
           <div className="flex flex-col">
-            <span className="font-black tracking-wider text-white leading-none text-xl sm:text-2xl drop-shadow">
+            <span className="font-black tracking-wider text-white leading-tight sm:leading-none text-sm sm:text-xl lg:text-2xl drop-shadow">
               Code with Zohaib Zeeshan
             </span>
           </div>

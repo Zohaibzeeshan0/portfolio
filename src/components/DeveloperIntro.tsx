@@ -69,12 +69,12 @@ export const DeveloperIntro: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
-        <div className="inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl glass-panel border border-blue-500/20 shadow-xl shadow-blue-500/5">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 px-4 sm:px-6 py-4 sm:py-3 rounded-2xl glass-panel border border-blue-500/20 shadow-xl shadow-blue-500/5 mx-auto max-w-fit">
           <Terminal className="w-5 h-5 text-blue-400 shrink-0" />
-          <span className="text-slate-400 font-mono text-sm sm:text-base">I am a </span>
-          <span className="font-mono text-lg sm:text-2xl font-bold gradient-text min-w-[240px] text-left">
+          <span className="text-slate-400 font-mono text-xs sm:text-base">I am a </span>
+          <span className="font-mono text-base sm:text-2xl font-bold gradient-text w-full sm:min-w-[240px] text-center sm:text-left">
             {currentText}
-            <span className="inline-block w-2 h-5 ml-1 bg-blue-500 animate-pulse align-middle" />
+            <span className="inline-block w-1.5 sm:w-2 h-4 sm:h-5 ml-1 bg-blue-500 animate-pulse align-middle" />
           </span>
         </div>
       </div>

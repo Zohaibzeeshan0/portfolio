@@ -21,13 +21,13 @@ export const Hero: React.FC = () => {
         </div>
 
         {/* Opening Full Single Line Heading: HI, I'M ZOHAIB ZEESHAN */}
-        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight mb-4 whitespace-normal sm:whitespace-nowrap max-w-full">
+        <h1 className="text-2xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight mb-4 whitespace-normal sm:whitespace-nowrap max-w-full">
           <span className="text-white drop-shadow-md">HI, I'M </span>
           <span className="gradient-text drop-shadow-lg">{PERSONAL_INFO.name.toUpperCase()}</span>
         </h1>
 
         {/* Sub-headline Role & Experience */}
-        <h2 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-blue-400 max-w-4xl mb-4 leading-snug">
+        <h2 className="text-base sm:text-xl lg:text-2xl font-extrabold text-blue-400 max-w-4xl mb-4 leading-snug">
           {PERSONAL_INFO.headline}
         </h2>
 

@@ -32,7 +32,7 @@ export function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background-dark text-slate-100 relative selection:bg-blue-500 selection:text-white">
+    <div className="min-h-screen bg-background-dark text-slate-100 relative selection:bg-blue-500 selection:text-white overflow-x-hidden w-full">
       {/* Navigation */}
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
 

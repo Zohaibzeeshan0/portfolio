@@ -92,7 +92,7 @@ zohaib@dev-workstation:~$ _`
         </div>
 
         {/* IDE Tabs */}
-        <div className="flex border-b border-white/10 bg-slate-900/50 text-xs font-mono">
+        <div className="flex border-b border-white/10 bg-slate-900/50 text-xs font-mono overflow-x-auto whitespace-nowrap">
           <button
             onClick={() => setActiveTab('developer')}
             className={`px-4 py-2.5 flex items-center gap-2 border-r border-white/10 transition-colors ${
