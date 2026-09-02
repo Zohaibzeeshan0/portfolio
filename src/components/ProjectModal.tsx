@@ -244,7 +244,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                     <ShoppingCart className="w-4 h-4" /> Cart Items: {cartCount}
                   </span>
                 </div>
-                <div className="p-4 rounded-xl bg-slate-900 border border-white/10 flex items-center justify-between">
+                <div className="p-4 rounded-xl bg-slate-900 border border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                   <span className="text-xs text-slate-300">Developer Mechanical Keyboard ($120.00)</span>
                   <button
                     onClick={() => setCartCount(c => c + 1)}
@@ -372,7 +372,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                   </button>
                 </div>
                 {dbBenchmark && (
-                  <div className="grid grid-cols-2 gap-3 text-xs font-mono">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs font-mono">
                     <div className="p-3 rounded-xl bg-slate-900 border border-white/10 text-blue-400">
                       PostgreSQL Latency: <span className="font-bold text-white">{dbBenchmark.sql} ms</span>
                     </div>

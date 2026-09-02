@@ -42,14 +42,14 @@ export const Footer: React.FC = () => {
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
               href="#contact"
-              className="px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 text-white font-bold text-sm shadow-xl shadow-blue-500/30 transition-all hover:-translate-y-0.5 flex items-center gap-2"
+              className="px-6 sm:px-8 py-3 sm:py-4 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 text-white font-bold text-sm shadow-xl shadow-blue-500/30 transition-all hover:-translate-y-0.5 flex items-center gap-2"
             >
               <MessageSquare className="w-4 h-4" />
               Start a Project
             </a>
             <a
               href="#projects"
-              className="px-8 py-4 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-white font-bold text-sm transition-all hover:-translate-y-0.5 flex items-center gap-2"
+              className="px-6 sm:px-8 py-3 sm:py-4 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-white font-bold text-sm transition-all hover:-translate-y-0.5 flex items-center gap-2"
             >
               View My Work
               <ExternalLink className="w-4 h-4 text-blue-400" />

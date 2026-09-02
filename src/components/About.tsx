@@ -43,7 +43,7 @@ export const About: React.FC = () => {
 
         {/* Quick Stats Row */}
         <ScrollReveal direction="up" delay={150}>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
             {[
               { label: 'Years Experience', value: '3+', color: 'text-blue-400' },
               { label: 'Projects Built', value: '20+', color: 'text-violet-400' },
