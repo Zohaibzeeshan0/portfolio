@@ -27,8 +27,8 @@ export const Process: React.FC = () => {
         {/* 6 Steps Timeline Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {PROCESS_STEPS.map((step, idx) => (
-            <ScrollReveal key={step.number} direction="up" delay={100 + (idx % 3) * 100}>
-              <div className="rounded-2xl border border-white/8 bg-slate-900/60 backdrop-blur-sm p-7 relative group hover:border-blue-500/60 transition-all duration-300 flex flex-col justify-between hover:-translate-y-1.5 shadow-xl overflow-hidden">
+            <ScrollReveal key={step.number} direction="up" delay={100 + (idx % 3) * 100} className="h-full">
+              <div className="h-full rounded-2xl border border-white/8 bg-slate-900/60 backdrop-blur-sm p-7 relative group hover:border-blue-500/60 transition-all duration-300 flex flex-col justify-between hover:-translate-y-1.5 shadow-xl overflow-hidden">
                 {/* Glow corner */}
                 <div className="absolute top-0 right-0 w-28 h-28 bg-blue-500/8 rounded-bl-full pointer-events-none" />
 
