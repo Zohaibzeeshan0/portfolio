@@ -50,7 +50,7 @@ export const About: React.FC = () => {
               { label: 'Technologies', value: '15+', color: 'text-cyan-400' },
               { label: 'Quality Commitment', value: '100%', color: 'text-emerald-400' },
             ].map((stat, i) => (
-              <div key={i} className="rounded-2xl border border-white/8 bg-slate-900/60 p-5 text-center">
+              <div key={i} className="rounded-2xl border border-white/8 bg-slate-900/60 p-5 text-center h-full flex flex-col justify-center">
                 <div className={`text-3xl font-extrabold font-mono ${stat.color} mb-1`}>{stat.value}</div>
                 <div className="text-xs text-slate-400 font-medium">{stat.label}</div>
               </div>

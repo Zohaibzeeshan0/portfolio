@@ -74,8 +74,8 @@ export const Experience: React.FC = () => {
         {/* Counter Statistics Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {EXPERIENCE_STATS.map((stat, idx) => (
-            <ScrollReveal key={idx} direction="up" delay={120 + idx * 90}>
-              <div className="p-6 rounded-2xl glass-card text-center relative overflow-hidden group hover:border-blue-500/60 shadow-xl">
+            <ScrollReveal key={idx} direction="up" delay={120 + idx * 90} className="h-full">
+              <div className="p-6 rounded-2xl glass-card text-center relative overflow-hidden group hover:border-blue-500/60 shadow-xl h-full flex flex-col justify-center">
                 <div className="absolute top-0 right-0 w-24 h-24 bg-blue-500/10 rounded-bl-full pointer-events-none group-hover:bg-blue-500/20 transition-colors" />
                 <div className="text-4xl sm:text-5xl font-extrabold font-mono tracking-tight gradient-text mb-2">
                   {counts[idx]}
